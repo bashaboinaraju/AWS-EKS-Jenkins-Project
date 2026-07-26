@@ -1,4 +1,4 @@
-# Eks Ecommerce Microservices App
+# AWS-EKS-Jenkins-Project
 
 This repository is structured for an industry-standard DevOps delivery flow using Terraform, Jenkins, GitHub, Argo CD, and Kubernetes.
 
