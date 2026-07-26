@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: backend-container
-          image: 992382830933.dkr.ecr.us-east-1.amazonaws.com/shopping-site-backend:817e902f9f36a17d42641e6c38d36cafc4213026
+          image: 968603941340.dkr.ecr.us-east-1.amazonaws.com/shopping-site-backend:6
           ports:
             - containerPort: 5000
           envFrom:
