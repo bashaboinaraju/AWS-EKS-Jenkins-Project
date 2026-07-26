@@ -16,11 +16,19 @@ spec:
                 name: main-service
                 port:
                   number: 80
-
-          - path: /api
+          
+          - path: /mobiles
             pathType: Prefix
             backend:
               service:
-                name: backend-service
+                name: mobiles-service
+                port:
+                  number: 80
+
+          - path: /electronics
+            pathType: Prefix
+            backend:
+              service:
+                name: electronics-service
                 port:
                   number: 80
