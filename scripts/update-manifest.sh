@@ -9,7 +9,7 @@ if [ -z "$ECR_REGISTRY" ]; then
   exit 1
 fi
 
-python - <<'PY' "$IMAGE_TAG" "$ECR_REGISTRY"
+python3 - <<'PY' "$IMAGE_TAG" "$ECR_REGISTRY"
 import os, sys, pathlib
 image_tag = sys.argv[1]
 registry = sys.argv[2]
